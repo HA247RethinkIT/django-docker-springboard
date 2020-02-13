@@ -2,18 +2,22 @@
 
 This project is intended to be a quick start that will leave you with a Django development environment & a new Django project.
 
-## Get the code from git.
+## Prerequisite
+
+You will reauire Docker and docker-compose (https://docs.docker.com/compose/install/)
+
+## Build your new env.
+
+### Get the code from git.
 ```
 git clone https://github.com/HA247RethinkIT/django-docker-springboard.git
 cd django-docker-springboard
 ```
 
-## Build the base images
+### Build the base images
 ```
 docker-compose build
 ```
-
-## Run the Django commands within the container.
 
 ### Start you're new Django project
 ```
