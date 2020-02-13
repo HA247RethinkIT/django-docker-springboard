@@ -4,8 +4,8 @@ This project is intended to be a quick start that will leave you with a Django d
 
 ## Get the code from git.
 ```
-git clone ---
-cd ---
+git clone https://github.com/HA247RethinkIT/django-docker-springboard.git
+cd django-docker-springboard
 ```
 
 ## Build the base images
@@ -20,8 +20,7 @@ docker-compose build
 docker-compose run web django-admin startproject my_project .
 ```
 
-### Modify you projects settings.py, Replace the current DATABASES with 
-#### Maybe look at adding - https://django-environ.readthedocs.io/en/latest/
+### Modify you projects `code/my_project/settings.py`, Replace the current DATABASES with 
 ```
 DATABASES = {
     'default': {
