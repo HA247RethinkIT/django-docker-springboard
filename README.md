@@ -20,7 +20,7 @@ docker-compose build
 docker-compose run web django-admin startproject my_project .
 ```
 
-### Modify you projects `code/my_project/settings.py`, Replace the current DATABASES with 
+ Modify you projects `code/my_project/settings.py`, Replace the current DATABASES with 
 ```
 DATABASES = {
     'default': {
