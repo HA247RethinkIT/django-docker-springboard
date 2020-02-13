@@ -50,3 +50,7 @@ docker-compose run web python manage.py migrate
 docker-compose run web python manage.py createsuperuser
 ```
 
+## Authors
+
+* [Nick Bascombe-Fox] (https://github.com/nick-fox)
+
